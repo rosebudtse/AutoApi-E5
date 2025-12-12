@@ -74,7 +74,6 @@ def main():
         r'https://graph.microsoft.com/v1.0/me/contacts', # 联系人
         r'https://graph.microsoft.com/v1.0/me/memberOf', # 隶属于组
         r'https://graph.microsoft.com/v1.0/me/insights/trending', # 见解/趋势
-        r'https://api.powerbi.com/v1.0/myorg/apps', # PowerBI
     ]
     
     # 2. 随机打乱 API 调用的顺序，模拟非固定模式
